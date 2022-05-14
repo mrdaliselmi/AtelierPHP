@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Livraison rapide</title>
+</head>
+<body>
+<link rel="stylesheet" href="style.css">
+<form action="recap.php" method="post" enctype="multipart/form-data">
+    <div class="inputBox">
+        <label for="nom">Nom : </label>
+        <input id="nom" type="text" name="nom">
+    </div>
+    <div class="inputBox">
+        <label for="prenom"> Prenom : </label>
+        <input id="prenom" type="text" name="prenom">
+    </div>
+    <div class="inputBox">
+        <label for="nbSandwich">Nombre de sandwichs : </label>
+        <input id="nbSandwich" type="number" name="nbSandwich">
+    </div>
+    <div class="inputBox">
+        <label for="addresse">Addresse : </label>
+        <input id="addresse" type="text" name="addresse">
+    </div>
+    <div class="inputBox">
+        <p>Type : </p>
+        <label for="Poulet"> Poulet</label>
+        <input id="Poulet" type="radio" name="type" value="Poulet" checked>
+        <label for="Viande"> Viande</label>
+        <input id="Viande" type="radio" name="type" value="Viande">
+        <label for="Escalope"> Escalope</label>
+        <input id="Escalope" type="radio" name="type" value="Escalope">
+    </div>
+    <div class="inputBox">
+        <p>Ingredients : </p>
+        <label for="Harissa"> Harissa</label>
+        <input id="Harissa" type="checkbox" name="ingredients" value="Harissa" >
+
+        <label for="Mayonnsaise"> Mayonnsaise</label>
+        <input id="Mayonnsaise"Mayonnsaise type="checkbox" name="ingredients" value="Mayonnsaise">
+
+        <label for="Salade"> Salade</label>
+        <input id="Salade" type="checkbox" name="ingredients" value="Salade" >
+
+    </div>
+    <div class="inputBox">
+        <label for="CIN">Uploader votre CIN : </label>
+        <input id="CIN" name="CIN" type="file">
+    </div>
+    <div class="inputBox">
+        <input type="submit" value="Submit">
+    </div>
+
+</form>
+</body>
+</html>
